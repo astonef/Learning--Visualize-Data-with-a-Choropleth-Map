@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#container {
+  height: 100vh;
+  width: 95vw;
+  min-width: 1200px;
+  min-height: 770px;
+  background-color: #1a1a1a;
+  color: #dcdcdc;
+  font-family: "Roboto", "Arial", sans-serif;
+  overflow: auto;
+}
+header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 1.5em; 
+  color: #ffffff; 
+  background-color: #333333; 
+  border-bottom: 4px solid #555555;
+}
+.county:hover {
+  fill: rgb(196, 61, 76)(61, 32, 32) !important;
+}
+#tooltip {
+  position: absolute;
+  text-align: center;
+  background-color: #226c04;
+  color: #ffffff; 
+  padding: 8px; 
+  border-radius: 4px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#mapHolder{
+    text-align: center;
+}
+
+#calltoaction {
+  padding-top: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+a[href="https://www.scratchtodispatch.sbs/"]:hover {
+  color: #0000ff; 
+  font-weight: bold; 
+  text-decoration: underline; 
+  background-color: #ffffcc; 
+  padding: 5px; 
+  
+}
